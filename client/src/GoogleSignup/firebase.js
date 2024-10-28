@@ -3,7 +3,7 @@ import { GoogleAuthProvider, getAuth } from "firebase/auth";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBiDqmHqomZB2IyiavzglO-UfbuUYbQifI",
+  apiKey: import.meta.env.VITE_API_KEY,
   authDomain: "tripmate-593b8.firebaseapp.com",
   projectId: "tripmate-593b8",
   storageBucket: "tripmate-593b8.appspot.com",
